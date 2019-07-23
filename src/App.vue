@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <div id="nav">在线markdown解析器</div>
+    <MdEditor/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MdEditor from './components/MdEditor.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MdEditor
   }
 }
 </script>
 
-<style>
+ <style lang="less">
+
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  #nav {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 </style>
