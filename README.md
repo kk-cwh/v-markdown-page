@@ -1,6 +1,18 @@
-# v-markdown
+# 一个在线markdown编辑器
 
-## Project setup
+ 基于 [v-markdown](https://www.npmjs.com/package/@zkhh/v-markdown)
+ [点击在线访问](https://zhangyake.github.io/v-markdown-page/dist)
+
+## 项目本地运行step
+
+### git clone
+
+```
+git clone https://github.com/zhangyake/v-markdown-page.git
+```
+
+### instatll
+
 ```
 npm install
 ```
