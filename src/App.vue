@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
       <div id="nav">在线markdown解析器</div>
     <MdEditor/>
   </div>
@@ -16,9 +17,12 @@ export default {
 }
 </script>
 
- <style lang="less">
 
 
+
+
+
+<style lang="less">
 #app {
   color: #2c3e50;
   #nav {
