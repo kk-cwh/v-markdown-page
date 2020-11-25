@@ -11,7 +11,7 @@
     "@zkhh/v-markdown": "^0.1.8",
     "core-js": "^2.6.5",
     "emojione": "^4.5.0",
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.1.2",
     "marked": "^0.7.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
